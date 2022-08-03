@@ -1,0 +1,5 @@
+num = int(input())
+lst = list(map(int, input().split()))
+maxx = max(lst)
+minn = min(lst)
+print(minn, maxx)
