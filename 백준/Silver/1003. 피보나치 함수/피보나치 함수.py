@@ -1,7 +1,7 @@
 T = int(input())
 for H in range(T):
     N = int(input())
-    memo = [0] * 41
+    memo = [0] * (N + 2)
     memo[0] = [1, 0]
     memo[1] = [0, 1]
     for i in range(2, N + 1):
